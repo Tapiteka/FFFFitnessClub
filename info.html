@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+    Name: Tabitha Love
+    Assignment: Fit Fun for Fitness
+    File Name: info.html
+    Date: Nov 2024
+    -->
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Info: Fit For Fitness</title>
+</head>
+<body>
+    <header>
+        <h1>Fit Fun For Fitness Club</h1>
+    </header>
+    <div class="grid-parent">
+        <div class="nav-container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="classes.html">Class Schedule</a></li>
+                    <li><a href="info.html">Information</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--Form Input-->
+        <div class="container">
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>
+                        Contact Information
+                    </legend>
+                    <label for="fname">
+                        First:
+                        <input autofocus type="text" id="fname" name="fname" placeholder="First Name" required>
+                    </label>
+                    <label for="lname">
+                        Last:
+                        <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+                    </label>
+                    <label for="email">
+                        Email:
+                        <input type="email" id="email" name="email" placeholder="myemail@example.com" required>
+                    </label>
+                    <label for="phone">
+                        Phone:
+                        <input type="tel" id="phone" name="phone" placeholder="555-555-5555">
+                    </label>
+                    <label for="select">
+                        Best way to Reach:
+                        <select name="select" id="select">
+                            <option value="email">Email</option>
+                            <option value="call">Call</option>
+                            <option value="text">Text</option>
+                            <option value="owl">Owl</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <!--Classes Checkbox-->
+                <fieldset>
+                    <legend>
+                        Classes Offered
+                    </legend>
+                    <label for="combat" class="form-class">
+                        BodyCombat
+                        <input type="checkbox" id="combat" name="combat">
+                    </label>
+                    <label for="pump" class="form-class">
+                        BodyPump
+                        <input type="checkbox" id="pump" name="pump">
+                    </label>
+                    <label for="cross" class="form-class">
+                        Cross Training
+                        <input type="checkbox" id="cross" name="cross">
+                    </label>
+                    <label for="cross-adv" class="form-class">
+                        Advanced Cross Training
+                        <input type="checkbox" id="cross-adv" name="cross-adv">
+                    </label>
+                    <label for="mixed" class="form-class">
+                        MixedFIT
+                        <input type="checkbox" id="mixed" name="mixed">
+                    </label>
+                    <label for="spin" class="form-class">
+                        Spinning
+                        <input type="checkbox" id="spin" name="spin">
+                    </label>
+                    <label for="sprint" class="form-class">
+                        Sprint
+                        <input type="checkbox" id="sprint" name="sprint">
+                    </label>
+                    <label for="step" class="form-class">
+                        Step Interval
+                        <input type="checkbox" id="step" name="step">
+                    </label>
+                    <label for="zumba" class="form-class">
+                        Zumba
+                        <input type="checkbox" id="zumba" name="zumba">
+                    </label>
+                </fieldset>
+                <!--Time-->
+                <fieldset>
+                    <legend>Time</legend>
+                    <label for="am" class="form-class">
+                        <input type="radio" id="am" name="time" value="AM" checked>
+                        AM
+                    </label>
+                    <label for="pm" class="form-class">
+                        <input type="radio" id="pm" name="time" value="PM">
+                        PM
+                    </label>
+                </fieldset>
+                <input class="submit" type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+/*
+    Name: Tabitha Love
+    Assignment: Fit Fun for Fitness
+    File Name: style.css
+    Date: Nov 2024
+*/
+
+/* General */
+html {
+    margin: 0px;
+    padding: 0%;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+header {
+    background-color: #65c09f;
+    width: 100%;
+    padding: 3%;
+}
+header h1 {
+    color: #ec3f40;
+    text-shadow: 2px 2px 3px #e3cf78;
+}
+/* Grid */
+.grid-parent {
+    display: flex;
+}
+
+/* Navigation */
+.nav-container {
+    width: 20%;
+    margin: 0px;
+    background-color: #65c09f;
+}
+nav li {
+    list-style: none;
+    padding: 2rem;
+}
+nav ul {
+    padding: 0%;
+}
+nav a {
+    text-decoration: none;
+    color: #e0dfdc;
+    text-shadow: 3px 2px 6px #103244;
+}
+nav li:hover {
+    box-shadow: 4px 4px 10px #103244;
+    background-color: #e8b032;
+    color: #103244;
+}
+
+/* Container */
+.container {
+    width: 80%;
+}
+img {
+    width: 100%;
+}
+.index-main {
+    padding-left: 2.5%;
+}
+
+/* Form */
+form {
+    padding: 12px;
+}
+fieldset {
+    margin-bottom: 5px;
+}
+label {
+    display: block;
+    padding-bottom: 8px;
+    position: relative;
+}
+input {
+    position: absolute;
+    left: 8%;
+    width: 85%;
+}
+.form-class {
+    display: flex;
+}
+.submit {
+    width: initial;
+    position: initial;
+    border: 0px;
+    margin-top: 8px;
+    background-color: #e65656;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    font-size: 1.5rem;
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+}
+th {
+    width: 14.5%;
+    background-color: #e8b032;
+    padding: 10px 0px 10px 0px;
+}
+td {
+    padding: 20px 10px 20px 10px;
+    border: 1px solid rgba(0, 0, 0, .25);
+}
+td span {
+    color: gray;
+    opacity: .8;
+}
+.table-item-blue {
+    color: #103244;
+    background-color: rgba(247, 192, 142, .75);
+}
+.table-item-orange {
+    color: #e65656;
+    background-color: rgba(16, 50, 68, .2);
+}
+.table-item-empty {
+    background-color: rgba(205, 225, 188, .75);
+}
